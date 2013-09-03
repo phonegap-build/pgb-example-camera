@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.hello-world"
+        version   = "1.0.0">
+
+    <name>Camera App</name>
+
+    <description>
+        Camera example app.
+    </description>
+
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        PhoneGap Team
+    </author>
+
+    <preference name="phonegap-version" value="3.0.0" /> 
+
+    <gap:plugin name="org.apache.cordova.core.camera" />
+</widget>
